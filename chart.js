@@ -41,7 +41,7 @@ function constructChart(getData) {
                     fontSize: '14'
                 }
             },
-            colors: ['#FF00FF']
+            //colors: ['#FF00FF']
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('chart'));
