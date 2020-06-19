@@ -40,7 +40,8 @@ function constructChart(getData) {
                 textStyle: {
                     fontSize: '14'
                 }
-            }
+            },
+            colors: ['#8A2BE2']
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('chart'));
